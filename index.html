@@ -7,36 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joe Rowley</title>
     <meta name="author" content="Joe Rowley" />
-    <link rel="stylesheet" type="text/css" href="/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" href="https://latex.now.sh/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/bootstrap.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/main.css" /> -->
   </head>
-  <body>
-    <div class="container">
+  <body id="body">
+    <div class="container" id="body">
       <div class="letter">
-        <h1>Joe Rowley</h1>
-        <h4><i>Software engineer with a passion for healthcare</i></h4>
+        <!-- <h1>Joe Rowley</h1> -->
 
+        <div class="abstract">
+          <h1>Joe Rowley</h1>
+          <h2>Software engineer with a passion for healthcare</h2>
+          <p>
+            I enjoy working in small high impact teams and delivering quality
+            technical solutions. Working in small teams has been instrumental in
+            allowing me to develop my skills as a generalist. As such I’ve been
+            privileged to work on wide variety of projects, from interactive data
+            visualizations on the frontend to authentication and authorization on
+            the backend. I’ve also worked on predictive analytics, data pipelines,
+            EHR integrations and DevOps. In addition to my work as an individual 
+            contributor, I also enjoy supporting others in a leadership and 
+            management capacity and growing teams.
+          </p>
+        </div>
         <!-- <h4><i>Left handed, right brained, and pluripotential.</i></h4> -->
-
         <hr />
-        <p>
-          I enjoy working in small high impact teams and delivering quality
-          technical solutions. Working in small teams has been instrumental in
-          allowing me to develop my skills as a generalist. As such I’ve been
-          privileged to work on wide variety of projects, from interactive data
-          visualizations on the frontend to authentication and authorization on
-          the backend. I’ve also worked on predictive analytics, data pipelines,
-          EHR integrations and DevOps. In addition to my work as an individual 
-          contributor, I also enjoy supporting others in a leadership and 
-          management capacity and growing teams.
-        </p>
-        <p>
+
+        <!-- <p>
           Please feel free to contact me if you think I might be a good fit for
           your organization. I'll be transparent about what I know and what I
           don't know.
-        </p>
+        </p> -->
         <!-- <hr /> -->
-        <!-- <p>
+        <p>
           In my free time I enjoy
           <a target="_blank" href="https://www.strava.com/athletes/3587629"
             >running</a
@@ -44,7 +48,7 @@
           <a target="_blank" href="http://www.last.fm/user/joer14"
             >listening to music</a
           >.
-        </p> -->
+        </p>
         <hr />
         <!-- <p><strong>Currently I am NOT looking for a job. Thank you, but please do not contact me about employment opportunities.</strong></p> -->
         <h4><i>Resume and Contact</i></h4>
@@ -80,12 +84,34 @@
         <h4><i>Recent Experience</i></h4>
         <div class="pl-1">
           <h5>
-            <a target="_blank" href="https://curebase.com">Curebase, Inc</a>
+            <a target="_blank" href="https://agilemd.com">Pomelo Care, Inc.</a>
+            <span>(August 2022 – Present)</span>
           </h5>
-          <p><i>Head of Engineering</i><span class="pull-right"><b>February 2021 - Present</b></span></p>
+          <p>
+            <i
+              >Senior Software Engineer</i>
+          </p>
           <ul>
             <li>
-              Hire, lead and manage a team of 25 including a Director, 3 Engineering Managers, as well as software engineers ranging from junior to staff, with specialities in full stack, mobile and data engineering.
+              Building a virtual maternity healthcare platform
+              <ul>
+                <li>GCP, Terraform, Kotlin, Spanner, Nextjs, React Native</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="pl-1">
+          <h5>
+            <a target="_blank" href="https://curebase.com">Curebase, Inc</a>
+            <span>(December 2018 – August 2022)</span>
+          </h5>
+          <p><i>Head of Engineering</i> (February 2021 - August 2022)</p>
+          <div></div>
+          <ul>
+            <li>
+              Hired, lead and managed a team of 25 including a Director, 3 Engineering Managers, as well as software engineers ranging from junior to staff, with specialities in full stack, mobile and data engineering.
             </li>
             <li>
               Work with Product, Quality, and InfoSec teams to build Curebase’s decentralized clinical trial platform
@@ -94,7 +120,7 @@
               Work cross functionally with clinical operations, sales, customer success, and leadership to ensure project and product delivery
             </li>
           </ul>
-          <p><i>Full Stack Web Engineer</i><span class="pull-right"><b>December 2018 – February 2021</b></span></p>
+          <p><i>Full Stack Web Engineer</i> (December 2018 – February 2021)</p>
           <ul>
             <li>
               Developed software and infrastructure to administer distributed
@@ -122,7 +148,7 @@
         <div class="pl-1">
           <h5>
             <a target="_blank" href="https://agilemd.com">AgileMD, Inc</a>
-            <span class="pull-right">February 2018 – June 2018</span>
+            <span>(February 2018 – June 2018)</span>
           </h5>
           <p>
             <i
@@ -154,7 +180,7 @@
             <a target="_blank" href="https://iha.org"
               >Integrated Healthcare Association</a
             >
-            <span class="pull-right">February 2016 – January 2018</span>
+            <span class="pull-right">(February 2016 – January 2018)</span>
           </h5>
           <p>
             <i>Full Stack Web Engineer / Generalist</i>
@@ -195,8 +221,7 @@
           <li>
             <a
               href="https://hepstack-stage.herokuapp.com/static/RowleyThesis.pdf"
-              >Undergraduate Thesis</a
-            >
+              >Undergraduate Thesis</a>
             <ul>
               <li>
                 Created a
